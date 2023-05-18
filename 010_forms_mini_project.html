@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <h2>Event Registration</h2>
+            
+            <label for="name-field">Name:</label> <br/>
+            <input type="text" name="name-field" id="name-field">
+            <br/>
+            <br/>
+            <label for="email-field">Email</label> <br/>
+            <input type="text" name="email-field" id="email-field">
+            <br/>
+            <br/>
+            <label for="phone-field">Phone</label> <br/>
+            <input type="tel" name="phone-field" id="phone-field">
+            <small>Format: +92123456789</small>
+            <br/>
+            <br/>
+            <label for="occupation-select">Occupation</label> <br/>
+            <select name="occupation-select" id="occupation-select">
+                <option value="other">Other</option>
+                <option value="student">Student</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="working">Working</option>
+            </select>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend>Topics of interest</legend>
+                <input type="checkbox" name="html" id="html"> <br/>
+                <label for="html">HTML</label>
+                <br/>
+                <input type="checkbox" name="css" id="css"><br/>
+                <label for="css">CSS</label>
+                <br/>
+                <input type="checkbox" name="java" id="java"> <br/>
+                <label for="java">JavaScript</label>
+            </fieldset>
+            <br/>
+            <br/>
+            <label for="comments">Comments</label> <br/>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+            <button>Register</button>
+        </form>
+    </body>
+</html>
